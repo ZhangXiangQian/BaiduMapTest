@@ -27,6 +27,15 @@
             }
         });
   ```
+  ```java
+    //定位且在地图标记当前位置
+    BaiduMapLocationUtils mBaiduMapLocationUtils =  new BaiduMapLocationUtils(this, new BaiduMapLocation() {
+            @Override
+            public void onLocationResult(BDLocation location) {
+                //定位搜索结果
+            }
+    },mBaiduMap);
+  ```
 #####关闭定位功能
   ```java
    location.onStop();
