@@ -48,6 +48,10 @@
   ```java
    location.onStop();
   ```
+#####重新定位
+  ```java
+   mBaiduMapLocationUtils.reLocation();
+  ```
 ####POI搜索
 #####初始化
   ```java
